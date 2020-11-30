@@ -1,0 +1,165 @@
+$primary: #315AF2;
+@import url(//db.onlinewebfonts.com/c/21eb6f4865449e28f1fadbfc274c3bc2?family=MuseoCyrl-900);
+@import url(//db.onlinewebfonts.com/c/a4d39054c80ee58e5e2906da364237cd?family=Circe+Rounded);
+
+body {
+    font-family: Circe Rounded;
+}
+.navbar {
+
+    background: #fff;
+    border-bottom: 2px solid #CDCDCD;
+    .btn-primary {
+        height: 32px;
+        width: 166px;
+        background: #315AF2;
+        border-radius: 6px;
+        text-align: center;
+    }
+}
+
+
+#why {
+    border-bottom: 2px solid #CDCDCD;
+    .btn-primary {
+        font-family: MuseoCyrl-900;
+        font-size: 32px;
+        width: 150px;
+        height: 58px;
+        text-align: center;
+
+    }
+    .col-md-8 {
+        padding-left: 0px;
+    }
+}
+
+h2 {
+    font-family: MuseoCyrl-900;
+    font-size: 42px;
+    line-height: 128%;
+    color: #315AF2;
+
+}
+h3 {
+    font-family: MuseoCyrl-900;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.416667px;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #404040;
+}
+
+h5{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+}
+h6{
+    font-family: Circe Rounded;
+    font-size: 16px;
+    color: #E9399C;
+}
+small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 136%;
+}
+
+hr {
+    position: absolute;
+    width: 180px;
+    height: 2px;
+    background: #404040;
+}
+
+#card {
+    p{
+        font-size: 20px;
+        line-height: 120%;
+        color: #315AF2;
+    }
+    small {
+    font-size: 12px;
+    line-height: 20px;
+    color: #979797;
+    }
+    h3 {
+    color: #315AF2;
+    }
+}
+
+.card {
+    border-radius: 3px
+}
+
+#statya {
+    background-color: #EEEEEE;
+}
+
+#colum {
+
+    h3 {
+    color: #315AF2;
+        }
+    img {
+        border-radius: 12px;
+    }
+    h6 {
+        font-family: Circe Rounded;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        color: #404040;
+    }
+}
+
+
+#add {
+    .btn-danger{
+        width: 159px;
+        height: 50px;
+        background: #E9399C;
+        border-radius: 3px;
+        margin-top: 3px;
+    }
+    .btn-primary {
+        font-family: MuseoCyrl-900;
+        height: 50px;
+             }
+    .col-md-9 {
+        padding-left: 0px;
+    }
+    .col-md-3 {
+        margin-left: 0px;
+    }
+    input{
+        height: 48px;
+        border: 2px solid #CDCDCD;
+        border-radius: 3px;
+    }
+    h3 {
+        font-family: MuseoCyrl-900;
+        font-size: 18px;
+        align-items: center;
+
+    }
+
+    h4 {
+        font-family: Circe Rounded;
+        font-size: 21px;
+        line-height: 31px;
+        text-align: center;
+        color: #315AF2;
+    }
+
+}
